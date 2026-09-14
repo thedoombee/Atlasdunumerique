@@ -94,7 +94,7 @@ export default function Regions() {
               type="button"
               onClick={() => setMetriqueId(m.id)}
               className={cn(
-                'rounded-full px-3.5 py-1.5 text-xs font-semibold shadow-xs transition-colors',
+                'rounded-full px-4 py-1.5 text-xs font-semibold transition-colors',
                 metriqueId === m.id ? 'bg-stone-900 text-white' : 'bg-stone-100 text-stone-600 hover:bg-stone-200',
               )}
             >

@@ -101,7 +101,7 @@ export default function Infrastructures() {
             <CardDescription>{formaterNombre(total)} équipements · page {page} affichée.</CardDescription>
           </CardEntete>
           <CardContenu>
-            <div className="h-[380px] overflow-hidden rounded-lg border border-stone-200">
+              <div className="h-[380px] overflow-hidden rounded-xl border border-stone-200/80">
               <MapContainer center={[8.65, 1.0]} zoom={7} style={{ height: '100%', width: '100%' }}>
                 <TileLayer
                   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a>'
@@ -228,7 +228,7 @@ export default function Infrastructures() {
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead>
-                <tr className="border-b border-stone-100 text-left text-[11px] text-stone-400">
+                <tr className="border-b border-stone-100 text-left text-xs font-medium text-stone-500">
                   <th className="py-2 pr-3 font-medium">Équipement</th>
                   <th className="hidden px-3 py-2 font-medium sm:table-cell">Type</th>
                   <th className="hidden px-3 py-2 font-medium md:table-cell">Opérateur</th>

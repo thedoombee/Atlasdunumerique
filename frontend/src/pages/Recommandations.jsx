@@ -112,7 +112,7 @@ export default function Recommandations() {
           <div className="relative mr-1 w-60">
             <Search className="absolute top-1/2 left-3 size-4 -translate-y-1/2 text-stone-400" />
             <Input
-              className="rounded-full bg-stone-100 pl-9"
+              className="bg-stone-100 pl-9"
               placeholder="Rechercher…"
               value={recherche}
               onChange={(e) => {
@@ -137,7 +137,7 @@ export default function Recommandations() {
               type="button"
               onClick={() => { setNiveau(niveau === n ? '' : n); setPage(1) }}
               className={cn(
-                'inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium transition-colors',
+                'inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-xs font-semibold transition-colors',
                 niveau === n ? 'bg-stone-900 text-white' : 'bg-stone-100 text-stone-600 hover:bg-stone-200',
               )}
             >
@@ -180,8 +180,8 @@ export default function Recommandations() {
           type="button"
           onClick={() => { setCategorie(''); setPage(1) }}
           className={cn(
-            'rounded-full px-3.5 py-1.5 text-xs font-semibold shadow-xs transition-colors',
-            categorie === '' ? 'bg-stone-900 text-white' : 'bg-white text-stone-500 hover:bg-stone-100',
+            'rounded-full px-4 py-1.5 text-xs font-semibold transition-colors',
+            categorie === '' ? 'bg-stone-900 text-white' : 'bg-stone-100 text-stone-600 hover:bg-stone-200',
           )}
         >
           Toutes catégories
@@ -192,8 +192,8 @@ export default function Recommandations() {
             type="button"
             onClick={() => { setCategorie(categorie === c ? '' : c); setPage(1) }}
             className={cn(
-              'rounded-full px-3.5 py-1.5 text-xs font-semibold shadow-xs transition-colors',
-              categorie === c ? 'bg-primary-600 text-white' : 'bg-white text-stone-500 hover:bg-stone-100',
+              'rounded-full px-4 py-1.5 text-xs font-semibold transition-colors',
+              categorie === c ? 'bg-primary-600 text-white' : 'bg-stone-100 text-stone-600 hover:bg-stone-200',
             )}
           >
             {c}

@@ -9,7 +9,7 @@ export function Table({ className, ...props }) {
 }
 
 export function TableEntete({ className, ...props }) {
-  return <thead data-slot="table-header" className={cn('[&_tr]:border-b', className)} {...props} />
+  return <thead data-slot="table-header" className={cn('[&_tr]:border-b [&_tr]:border-stone-100', className)} {...props} />
 }
 
 export function TableCorps({ className, ...props }) {
@@ -23,7 +23,7 @@ export function TableLigne({ className, ...props }) {
     <tr
       data-slot="table-row"
       className={cn(
-        'border-b border-stone-100 transition-colors hover:bg-stone-50/70',
+        'border-b border-stone-100 transition-colors last:border-0 hover:bg-stone-50/70',
         className,
       )}
       {...props}
@@ -36,7 +36,7 @@ export function TableCelluleEntete({ className, aligneeDroite = false, ...props 
     <th
       data-slot="table-head"
       className={cn(
-        'h-10 px-3 font-medium whitespace-nowrap text-stone-500 [&:has([role=checkbox])]:pr-0',
+        'h-11 px-4 text-xs font-medium whitespace-nowrap text-stone-500 [&:has([role=checkbox])]:pr-0',
         aligneeDroite ? 'text-right' : 'text-left',
         className,
       )}
@@ -50,7 +50,7 @@ export function TableCellule({ className, aligneeDroite = false, ...props }) {
     <td
       data-slot="table-cell"
       className={cn(
-        'px-3 py-2.5 whitespace-nowrap text-stone-700 [&:has([role=checkbox])]:pr-0',
+        'px-4 py-3 whitespace-nowrap text-stone-700 [&:has([role=checkbox])]:pr-0',
         aligneeDroite && 'text-right tabular-nums',
         className,
       )}

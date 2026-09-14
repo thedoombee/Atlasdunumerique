@@ -12,7 +12,7 @@ export function KpiCarte({ icone: Icone, libelle, valeur, sousTexte, accent = fa
           {sousTexte ? <p className="mt-1 text-xs text-stone-500">{sousTexte}</p> : null}
         </div>
         {Icone ? (
-          <span className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-primary-100 text-primary-700">
+          <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-primary-100 text-primary-700">
             <Icone className="size-4" />
           </span>
         ) : null}

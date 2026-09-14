@@ -8,7 +8,7 @@ export function CarteScore({ rang, titre, extra, geant, unite, stats = [], nivea
         <div className="flex items-center justify-between gap-2">
           <p className="flex min-w-0 items-center gap-2 text-sm font-semibold">
             {rang != null ? (
-              <span className="flex size-6 shrink-0 items-center justify-center rounded-md bg-stone-900 text-[10px] font-bold text-white">
+              <span className="flex size-6 shrink-0 items-center justify-center rounded-lg bg-stone-900 text-[10px] font-bold text-white">
                 {String(rang).padStart(2, '0')}
               </span>
             ) : null}

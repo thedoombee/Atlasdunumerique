@@ -13,9 +13,6 @@
   --color-primary-700: #0a6334;
   --color-primary-800: #075a2c;
   --color-primary-900: #05491f;
-
-  --radius-lg: 0.75rem;
-  --radius-xl: 1rem;
 }
 
 html,
@@ -26,24 +23,30 @@ body {
 
 body {
   font-family: var(--font-sans);
-  background-color: #e9e7e1;
-  color: var(--color-stone-900);
+  background-color: #f6f6f4;
+  color: #1c1917;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Petits labels de section façon références : capitales espacées */
-.etiquette-section {
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--color-stone-400);
+::selection {
+  background-color: #d7ecdf;
+  color: #05491f;
 }
 
-/* Leaflet doit rester sous les panneaux flottants */
+/* Labels de section : petits, espacés, gris doux */
+.etiquette-section {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #a8a29e;
+}
+
+/* Leaflet reste sous les panneaux flottants, coins doux */
 .leaflet-container {
   z-index: 0;
-  border-radius: var(--radius-lg);
+  border-radius: 1rem;
+  font-family: var(--font-sans);
 }
 
 .leaflet-pane {
@@ -53,5 +56,5 @@ body {
 /* Barres de défilement discrètes */
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--color-stone-300) transparent;
+  scrollbar-color: #d6d3d1 transparent;
 }

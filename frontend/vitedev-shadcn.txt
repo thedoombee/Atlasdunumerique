@@ -5189,3 +5189,391 @@
 [2m12:00:51[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prefectures.jsx, /src/styles/index.css[22m
 [2m12:01:10[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_b.txt[22m
 [2m12:01:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css[22m
+[2m12:13:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/button.jsx[22m
+[2m12:13:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/input.jsx[22m
+[2m12:13:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/card.jsx[22m
+[2m12:13:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/tabs.jsx[22m
+[2m12:13:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/table.jsx[22m
+[2m12:13:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css[22m
+[2m12:14:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.jsx, /src/styles/index.css[22m
+[2m12:14:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/styles/index.css[22m
+[2m12:14:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Header.jsx, /src/styles/index.css[22m
+[2m12:14:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.jsx, /src/styles/index.css[22m
+[2m12:14:00[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Header.jsx, /src/styles/index.css[22m
+[2m12:14:01[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Header.jsx, /src/styles/index.css[22m
+[2m12:14:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/ui/cartescore.jsx, /src/styles/index.css[22m
+[2m12:14:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/barlist.jsx[22m
+[2m12:14:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/kpi.jsx[22m
+[2m12:14:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/kpimini.jsx[22m
+[2m12:14:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/barlist.jsx[22m
+[2m12:14:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/components/ui/barlist.jsx[22m Could not Fast Refresh ("couleurPalette" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m12:14:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Infrastructures.jsx[22m
+[2m12:14:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prefectures.jsx, /src/styles/index.css[22m
+[2m12:14:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ZonesBlanches.jsx, /src/styles/index.css[22m
+[2m12:14:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Recommandations.jsx, /src/styles/index.css[22m
+[2m12:14:32[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Regions.jsx, /src/styles/index.css[22m
+[2m12:14:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prefectures.jsx, /src/styles/index.css[22m
+[2m12:14:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ZonesBlanches.jsx, /src/styles/index.css[22m
+[2m12:14:48[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Recommandations.jsx, /src/styles/index.css[22m
+[2m12:15:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/VueEnsemble.jsx, /src/styles/index.css[22m
+[2m12:15:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Recommandations.jsx, /src/styles/index.css[22m
+[2m12:15:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Infrastructures.jsx, /src/styles/index.css[22m
+[2m12:15:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/VueEnsemble.jsx, /src/styles/index.css[22m
+[2m12:15:11[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Infrastructures.jsx, /src/styles/index.css[22m
+[2m12:15:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_b.txt[22m
+[2m12:15:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css[22m
+[2m12:21:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/card.jsx[22m
+[2m12:21:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/button.jsx[22m
+[2m12:21:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css[22m
+[2m12:21:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/input.jsx[22m
+[2m12:21:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/tabs.jsx[22m
+[2m12:21:39[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/table.jsx[22m
+[2m12:21:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.jsx, /src/styles/index.css[22m
+[2m12:21:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Header.jsx, /src/styles/index.css[22m
+[2m12:21:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.jsx, /src/styles/index.css[22m
+[2m12:21:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/styles/index.css[22m
+[2m12:21:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Header.jsx, /src/styles/index.css[22m
+[2m12:21:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/kpimini.jsx[22m
+[2m12:21:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/kpi.jsx[22m
+[2m12:21:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/ui/cartescore.jsx, /src/styles/index.css[22m
+[2m12:21:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/barlist.jsx[22m
+[2m12:21:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/components/ui/barlist.jsx[22m
+[2m12:22:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Regions.jsx, /src/styles/index.css[22m
+[2m12:22:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prefectures.jsx, /src/styles/index.css[22m
+[2m12:22:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ZonesBlanches.jsx, /src/styles/index.css[22m
+[2m12:22:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Recommandations.jsx, /src/styles/index.css[22m
+[2m12:22:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prefectures.jsx, /src/styles/index.css[22m
+[2m12:22:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Recommandations.jsx, /src/styles/index.css[22m
+[2m12:22:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Recommandations.jsx, /src/styles/index.css[22m
+[2m12:22:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ZonesBlanches.jsx, /src/styles/index.css[22m
+[2m12:22:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/VueEnsemble.jsx, /src/styles/index.css[22m
+[2m12:22:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Infrastructures.jsx, /src/styles/index.css[22m
+[2m12:22:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Recommandations.jsx, /src/styles/index.css[22m
+[2m12:22:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/VueEnsemble.jsx, /src/styles/index.css[22m
+[2m12:22:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Infrastructures.jsx, /src/styles/index.css[22m
+[2m12:23:04[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_b.txt[22m
+[2m12:23:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css[22m
+[2m12:35:35[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Header.jsx, /src/styles/index.css[22m
+[2m12:35:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [optimizer] bundling dependencies...
+[2m12:35:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mdependency optimized: [33mcmdk[32m[39m
+[2m12:35:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32moptimized dependencies changed. reloading[39m
+[2m12:35:59[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prefectures.jsx, /src/styles/index.css[22m
+[2m12:36:54[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/styles/index.css[22m
+[2m12:36:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [optimizer] bundling dependencies...
+[2m12:36:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mdependencies optimized: [33m@radix-ui/react-checkbox, @radix-ui/react-dialog[32m[39m
+[2m12:36:57[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32moptimized dependencies changed. reloading[39m
+[2m12:37:13[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.jsx, /src/styles/index.css[22m
+[2m12:37:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.jsx, /src/styles/index.css[22m
+[2m12:37:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.jsx, /src/styles/index.css[22m
+[2m12:37:45[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prefectures.jsx, /src/styles/index.css[22m
+[2m12:37:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [optimizer] bundling dependencies...
+[2m12:37:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mdependency optimized: [33m@radix-ui/react-slider[32m[39m
+[2m12:37:50[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32moptimized dependencies changed. reloading[39m
+[2m12:38:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prefectures.jsx, /src/styles/index.css[22m
+[2m12:38:15[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prefectures.jsx, /src/styles/index.css[22m
+[2m12:39:52[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prefectures.jsx, /src/styles/index.css[22m
+[2m12:40:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prefectures.jsx, /src/styles/index.css[22m
+[2m12:40:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ZonesBlanches.jsx, /src/styles/index.css[22m
+[2m12:40:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ZonesBlanches.jsx, /src/styles/index.css[22m
+[2m12:41:14[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ZonesBlanches.jsx, /src/styles/index.css[22m
+[2m12:41:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ZonesBlanches.jsx, /src/styles/index.css[22m
+[2m12:41:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/VueEnsemble.jsx, /src/styles/index.css[22m
+[2m12:41:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/VueEnsemble.jsx, /src/styles/index.css[22m
+[2m12:41:46[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/VueEnsemble.jsx, /src/styles/index.css[22m
+[2m12:41:47[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/VueEnsemble.jsx, /src/styles/index.css[22m
+[2m12:41:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_b.txt[22m
+[2m12:42:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css[22m
+[2m14:43:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/pages/Carte.jsx[22m
+[2m14:43:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/pages/Carte.jsx[22m
+[2m14:43:44[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+      at transformWithOxc (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7208:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7280:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:8172:51)
+      at async loadAndTransform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19634:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19853:20)
+[2m14:43:45[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+      at transformWithOxc (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7208:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7280:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:8172:51)
+      at async loadAndTransform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19634:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19853:20)
+[2m14:43:45[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+[2m14:43:47[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+      at transformWithOxc (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7208:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7280:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:8172:51)
+      at async loadAndTransform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19634:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19853:20)
+[2m14:43:49[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+      at transformWithOxc (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7208:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7280:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:8172:51)
+      at async loadAndTransform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19634:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19853:20)
+[2m14:43:51[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+      at transformWithOxc (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7208:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7280:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:8172:51)
+      at async loadAndTransform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19634:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19853:20)
+[2m14:43:55[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+      at transformWithOxc (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7208:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7280:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:8172:51)
+      at async loadAndTransform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19634:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19853:20)
+[2m14:43:59[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+      at transformWithOxc (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7208:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7280:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:8172:51)
+      at async loadAndTransform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19634:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19853:20)
+[2m14:44:04[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+      at transformWithOxc (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7208:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7280:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:8172:51)
+      at async loadAndTransform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19634:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19853:20)
+[2m14:44:08[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+      at transformWithOxc (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7208:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7280:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:8172:51)
+      at async loadAndTransform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19634:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19853:20)
+[2m14:44:11[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+      at transformWithOxc (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7208:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7280:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:8172:51)
+      at async loadAndTransform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19634:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19853:20)
+[2m14:44:14[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+      at transformWithOxc (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7208:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7280:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:8172:51)
+      at async loadAndTransform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19634:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19853:20)
+[2m14:44:17[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+      at transformWithOxc (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7208:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7280:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:8172:51)
+      at async loadAndTransform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19634:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19853:20)
+[2m14:44:20[22m [31m[1m[vite][22m[39m [31mInternal server error: Transform failed with 1 error:
+
+[31m[PARSE_ERROR] [0mExpected `:` but found `}`
+     [38;5;246m╭[0m[38;5;246m─[0m[38;5;246m[[0m src/pages/Carte.jsx:296:10 [38;5;246m][0m
+     [38;5;246m│[0m
+ [38;5;246m276 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m[38;5;249m [0m[38;5;249m:[0m[38;5;249m [0m[38;5;249ms[0m[38;5;249me[0m[38;5;249ml[0m[38;5;249me[0m[38;5;249mc[0m[38;5;249mt[0m[38;5;249mi[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249m?[0m[38;5;249m.[0m[38;5;249md[0m[38;5;249mo[0m[38;5;249mn[0m[38;5;249mn[0m[38;5;249me[0m[38;5;249me[0m[38;5;249ms[0m[38;5;249m [0m?[38;5;249m [0m[38;5;249m([0m
+ [38;5;240m    │[0m                                ┬  
+ [38;5;240m    │[0m                                ╰── Conditional starts here
+ [38;5;240m    │[0m 
+ [38;5;246m296 │[0m [38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m [0m[38;5;249m)[0m}
+ [38;5;240m    │[0m          ┬  
+ [38;5;240m    │[0m          ╰── `:` expected
+[38;5;246m─────╯[0m
+[39m
+  Plugin: [35mvite:oxc[39m
+  File: [36mC:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/src/pages/Carte.jsx[39m
+      at transformWithOxc (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7208:19)
+      at TransformPluginContext.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:7280:26)
+      at EnvironmentPluginContainer.transform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:8172:51)
+      at async loadAndTransform (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19634:26)
+      at async viteTransformMiddleware (file:///C:/Users/User/OneDrive/Documents/stuffs/economie_numerique/frontend/node_modules/vite/dist/node/chunks/node.js:19853:20)
+[2m14:44:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css, /src/pages/Carte.jsx[22m
+[2m14:44:43[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2m_b.txt[22m
+[2m14:44:53[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css[22m

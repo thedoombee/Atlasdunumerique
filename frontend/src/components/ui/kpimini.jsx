@@ -17,7 +17,7 @@ export function KpiMini({ icone: Icone, label, sousLabel, valeur, sousTexte, tei
       <CardContenu className="space-y-2 pt-4">
         <div className="flex items-center gap-2.5">
           {Icone ? (
-            <span className={cn('flex size-8 items-center justify-center rounded-lg', TEINTES[teinte] || TEINTES.vert)}>
+            <span className={cn('flex size-9 items-center justify-center rounded-xl', TEINTES[teinte] || TEINTES.vert)}>
               <Icone className="size-4" />
             </span>
           ) : null}

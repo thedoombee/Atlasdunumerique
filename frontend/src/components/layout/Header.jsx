@@ -1,26 +1,24 @@
-import { useMemo, useState } from 'react'
-import { Bell, Download, Search } from 'lucide-react'
+import { useEffect, useState } from 'react'
+import { Bell, Command as CommandeIcone, Download, Search } from 'lucide-react'
 import { getIndicateursNationaux } from '../../services/api'
 import { Badge } from '../ui/badge'
 import { Button } from '../ui/button'
-import { Input } from '../ui/input'
+import { PaletteCommande } from '../ui/palette'
 
 export default function Header({ titrePage = "Vue d'ensemble", pages = [], onNaviguer }) {
-  const [recherche, setRecherche] = useState('')
-  const [focus, setFocus] = useState(false)
+  const [paletteOuverte, setPaletteOuverte] = useState(false)
   const [exportEnCours, setExportEnCours] = useState(false)
 
-  const suggestions = useMemo(() => {
-    const terme = recherche.trim().toLowerCase()
-    if (!terme) return []
-    return pages.filter((p) => p.label.toLowerCase().includes(terme)).slice(0, 5)
-  }, [pages, recherche])
-
-  const aller = (id) => {
-    onNaviguer?.(id)
-    setRecherche('')
-    setFocus(false)
-  }
+  useEffect(() => {
+    const auClavier = (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault()
+        setPaletteOuverte((v) => !v)
+      }
+    }
+    window.addEventListener('keydown', auClavier)
+    return () => window.removeEventListener('keydown', auClavier)
+  }, [])
 
   const exporter = async () => {
     setExportEnCours(true)
@@ -41,40 +39,23 @@ export default function Header({ titrePage = "Vue d'ensemble", pages = [], onNav
   }
 
   return (
-    <header className="flex flex-wrap items-center gap-3 border-b border-stone-200/80 bg-white/80 px-6 py-3 backdrop-blur">
+    <header className="flex flex-wrap items-center gap-3 border-b border-stone-200/70 bg-white/80 px-6 py-3 backdrop-blur">
       <p className="text-sm text-stone-400">
         Dashboard <span className="mx-1">›</span>{' '}
         <span className="font-medium text-stone-900">{titrePage}</span>
       </p>
 
-      <div className="relative ml-auto w-64">
-        <Search className="absolute top-1/2 left-3 size-4 -translate-y-1/2 text-stone-400" />
-        <Input
-          className="rounded-full bg-stone-100 pl-9"
-          placeholder="Rechercher une page…"
-          value={recherche}
-          onChange={(e) => setRecherche(e.target.value)}
-          onFocus={() => setFocus(true)}
-          onBlur={() => setTimeout(() => setFocus(false), 120)}
-          onKeyDown={(e) => {
-            if (e.key === 'Enter' && suggestions.length > 0) aller(suggestions[0].id)
-          }}
-        />
-        {focus && suggestions.length > 0 ? (
-          <div className="absolute top-11 right-0 left-0 z-20 overflow-hidden rounded-xl border border-stone-200 bg-white shadow-lg">
-            {suggestions.map((p) => (
-              <button
-                key={p.id}
-                type="button"
-                onMouseDown={() => aller(p.id)}
-                className="block w-full px-4 py-2 text-left text-sm text-stone-700 hover:bg-stone-50"
-              >
-                {p.label}
-              </button>
-            ))}
-          </div>
-        ) : null}
-      </div>
+      <button
+        type="button"
+        onClick={() => setPaletteOuverte(true)}
+        className="ml-auto flex w-64 items-center gap-2 rounded-xl border border-stone-200 bg-stone-100 px-3 py-2 text-sm text-stone-400 transition-colors hover:bg-stone-200/70"
+      >
+        <Search className="size-4" />
+        <span className="flex-1 text-left">Rechercher…</span>
+        <kbd className="flex items-center gap-0.5 rounded-md border border-stone-200 bg-white px-1.5 py-0.5 text-[10px] font-semibold text-stone-500">
+          <CommandeIcone className="size-3" />K
+        </kbd>
+      </button>
 
       <Button taille="petit" onClick={exporter} disabled={exportEnCours}>
         <Download />
@@ -90,6 +71,13 @@ export default function Header({ titrePage = "Vue d'ensemble", pages = [], onNav
         <span className="size-1.5 rounded-full bg-emerald-500" />
         Données à jour
       </Badge>
+
+      <PaletteCommande
+        ouvert={paletteOuverte}
+        onFermer={() => setPaletteOuverte(false)}
+        pages={pages}
+        onNaviguer={onNaviguer}
+      />
     </header>
   )
 }

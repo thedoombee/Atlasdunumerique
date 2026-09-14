@@ -7,6 +7,7 @@ import { Button } from '../components/ui/button'
 import { Card, CardContenu, CardDescription, CardEntete, CardTitre } from '../components/ui/card'
 import { CarteScore } from '../components/ui/cartescore'
 import { Input } from '../components/ui/input'
+import { Slider } from '../components/ui/slider'
 import { exporterCsv } from '../lib/csv'
 import { JaugeSegments } from '../components/ui/jauge'
 import { KpiMini } from '../components/ui/kpimini'
@@ -27,6 +28,7 @@ export default function ZonesBlanches() {
   const [filtre, setFiltre] = useState('')
   const [recherche, setRecherche] = useState('')
   const [metriqueId, setMetriqueId] = useState('score')
+  const [seuil, setSeuil] = useState(0)
 
   const METRIQUES = {
     score: { label: 'Score', unite: 'score de priorité zone blanche', cle: (z) => Number(z.score_priorite) || 0, format: (v) => formaterNombre(v) },
@@ -61,16 +63,22 @@ export default function ZonesBlanches() {
     [items],
   )
 
+  const scoreMaxDonnees = useMemo(
+    () => Math.ceil(Math.max(0, ...items.map((z) => Number(z.score_priorite) || 0))),
+    [items],
+  )
+
   const filtrees = useMemo(() => {
     const terme = recherche.trim().toLowerCase()
     return [...items]
       .filter((z) => {
         if (filtre && z.niveau_priorite !== filtre) return false
+        if ((Number(z.score_priorite) || 0) < seuil) return false
         if (!terme) return true
         return `${z.prefecture || ''} ${z.region || ''}`.toLowerCase().includes(terme)
       })
       .sort((a, b) => metrique.cle(b) - metrique.cle(a))
-  }, [items, filtre, recherche, metrique])
+  }, [items, filtre, recherche, metrique, seuil])
 
   const populationNonCouverte = useMemo(
     () => filtrees.reduce((s, z) => s + (Number(z.population_non_couverte) || 0), 0),
@@ -179,8 +187,8 @@ export default function ZonesBlanches() {
             type="button"
             onClick={() => setMetriqueId(id)}
             className={cn(
-              'rounded-full px-3.5 py-1.5 text-xs font-semibold shadow-xs transition-colors',
-              metriqueId === id ? 'bg-stone-900 text-white' : 'bg-white text-stone-500 hover:bg-stone-100',
+              'rounded-full px-4 py-1.5 text-xs font-semibold transition-colors',
+              metriqueId === id ? 'bg-stone-900 text-white' : 'bg-stone-100 text-stone-600 hover:bg-stone-200',
             )}
           >
             {m.label}
@@ -193,8 +201,8 @@ export default function ZonesBlanches() {
           type="button"
           onClick={() => setFiltre('')}
           className={cn(
-            'rounded-full px-3.5 py-1.5 text-xs font-semibold shadow-xs transition-colors',
-            filtre === '' ? 'bg-stone-900 text-white' : 'bg-white text-stone-500 hover:bg-stone-100',
+            'rounded-full px-4 py-1.5 text-xs font-semibold transition-colors',
+            filtre === '' ? 'bg-stone-900 text-white' : 'bg-stone-100 text-stone-600 hover:bg-stone-200',
           )}
         >
           Tous
@@ -205,8 +213,8 @@ export default function ZonesBlanches() {
             type="button"
             onClick={() => setFiltre(filtre === n ? '' : n)}
             className={cn(
-              'inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-xs font-semibold shadow-xs transition-colors',
-              filtre === n ? 'bg-stone-900 text-white' : 'bg-white text-stone-500 hover:bg-stone-100',
+              'inline-flex items-center gap-1.5 rounded-full px-4 py-1.5 text-xs font-semibold transition-colors',
+              filtre === n ? 'bg-stone-900 text-white' : 'bg-stone-100 text-stone-600 hover:bg-stone-200',
             )}
           >
             <span className="size-1.5 rounded-full" style={{ backgroundColor: couleurNiveau(n) }} />
@@ -216,7 +224,7 @@ export default function ZonesBlanches() {
         <div className="relative ml-auto w-52">
           <Search className="absolute top-1/2 left-3 size-4 -translate-y-1/2 text-stone-400" />
           <Input
-            className="rounded-full bg-white pl-9"
+            className="bg-white pl-9"
             placeholder="Rechercher…"
             value={recherche}
             onChange={(e) => setRecherche(e.target.value)}
@@ -243,6 +251,29 @@ export default function ZonesBlanches() {
           CSV ({filtrees.length})
         </Button>
       </div>
+
+      <Card>
+        <CardContenu className="flex flex-wrap items-center gap-4 pt-4">
+          <span className="text-xs font-medium text-stone-500">
+            Score minimal : <strong className="text-stone-900 tabular-nums">{seuil}</strong>
+          </span>
+          <Slider
+            className="max-w-xs flex-1"
+            min={0}
+            max={scoreMaxDonnees}
+            step={1}
+            value={[seuil]}
+            onValueChange={(v) => setSeuil(v[0] ?? 0)}
+          />
+          <span className="text-xs text-stone-400 tabular-nums">0 — {scoreMaxDonnees}</span>
+          {seuil > 0 ? (
+            <button type="button" onClick={() => setSeuil(0)} className="text-xs font-medium text-primary-700 hover:underline">
+              Réinitialiser
+            </button>
+          ) : null}
+          <span className="ml-auto text-xs text-stone-500">{filtrees.length} préfecture(s) au-dessus du seuil</span>
+        </CardContenu>
+      </Card>
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
         {filtrees.map((z, index) => (

@@ -16,6 +16,7 @@ import {
 } from '../services/api'
 import { formaterNombre, formaterPourcent } from '../utils/format'
 import { Card, CardContenu, CardDescription, CardEntete, CardTitre } from '../components/ui/card'
+import { Compte } from '../components/ui/compte'
 import { JaugeSegments } from '../components/ui/jauge'
 import { ChargementCartes, ErreurCarte } from '../components/ui/etat'
 import { SparklineBarres } from '../components/ui/sparkline'
@@ -147,22 +148,22 @@ export default function VueEnsemble({ onNaviguer }) {
           </p>
         </div>
         <div className="flex flex-wrap gap-2">
-          <button type="button" onClick={exporter} className="inline-flex items-center gap-1.5 rounded-full border border-stone-200 bg-white px-3.5 py-1.5 text-xs font-medium text-stone-700 shadow-xs hover:bg-stone-50">
+          <button type="button" onClick={exporter} className="inline-flex items-center gap-1.5 rounded-full border border-stone-200 bg-white px-4 py-1.5 text-xs font-medium text-stone-700 shadow-xs hover:bg-stone-50">
             <Download className="size-3.5" /> Exporter
           </button>
-          <button type="button" onClick={() => onNaviguer?.('zones-blanches')} className="inline-flex items-center gap-1.5 rounded-full border border-stone-200 bg-white px-3.5 py-1.5 text-xs font-medium text-stone-700 shadow-xs hover:bg-stone-50">
+          <button type="button" onClick={() => onNaviguer?.('zones-blanches')} className="inline-flex items-center gap-1.5 rounded-full border border-stone-200 bg-white px-4 py-1.5 text-xs font-medium text-stone-700 shadow-xs hover:bg-stone-50">
             Zones blanches <ArrowRight className="size-3.5" />
           </button>
-          <button type="button" onClick={() => onNaviguer?.('infrastructures')} className="inline-flex items-center gap-1.5 rounded-full bg-stone-900 px-3.5 py-1.5 text-xs font-medium text-white shadow-xs hover:bg-stone-800">
+          <button type="button" onClick={() => onNaviguer?.('infrastructures')} className="inline-flex items-center gap-1.5 rounded-full bg-stone-900 px-4 py-1.5 text-xs font-medium text-white shadow-xs hover:bg-stone-800">
             <MapIcone className="size-3.5" /> Explorer la carte
           </button>
         </div>
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-        <CarteFlux label="Population" valeur={formaterNombre(donnees.total_population)} sousTexte={`${donnees.n_regions || 5} régions · ${donnees.n_prefectures || 39} préfectures`} donneesSpark={serie.population} />
-        <CarteFlux label="Agents mobile money" valeur={formaterNombre(donnees.total_agents_mobile_money)} sousTexte={`${formaterNombre(donnees.agents_par_1000_habitants)} pour 1000 hab.`} donneesSpark={serie.agents} />
-        <CarteFlux label="Infrastructures" valeur={formaterNombre(donnees.total_infrastructures)} sousTexte={`${formaterNombre(donnees.total_agences)} agences · ${formaterNombre(donnees.total_datacenters)} datacenters`} donneesSpark={serie.infra} couleurSpark="#65a30d" />
+        <CarteFlux label="Population" valeur={<Compte valeur={donnees.total_population} format={(v) => formaterNombre(v)} />} sousTexte={`${donnees.n_regions || 5} régions · ${donnees.n_prefectures || 39} préfectures`} donneesSpark={serie.population} />
+        <CarteFlux label="Agents mobile money" valeur={<Compte valeur={donnees.total_agents_mobile_money} format={(v) => formaterNombre(v)} />} sousTexte={`${formaterNombre(donnees.agents_par_1000_habitants)} pour 1000 hab.`} donneesSpark={serie.agents} />
+        <CarteFlux label="Infrastructures" valeur={<Compte valeur={donnees.total_infrastructures} format={(v) => formaterNombre(v)} />} sousTexte={`${formaterNombre(donnees.total_agences)} agences · ${formaterNombre(donnees.total_datacenters)} datacenters`} donneesSpark={serie.infra} couleurSpark="#65a30d" />
         <CarteFlux label="Écart de concentration" valeur={formaterPourcent((concentration?.dissimilarite_agences_prefectures || 0) * 100)} sousTexte="agences entre préfectures (4 indices)" donneesSpark={serie.ecarts} couleurSpark="#f59e0b" />
       </div>
 

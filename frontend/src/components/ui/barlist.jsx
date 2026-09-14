@@ -27,7 +27,7 @@ export function BarList({ donnees = [], couleur, formatValeur, maxLignes }) {
                   {formatValeur ? formatValeur(ligne.valeur) : formaterNombre(ligne.valeur)}
                 </span>
               </div>
-              <div className="mt-1 h-1.5 overflow-hidden rounded-full bg-stone-100">
+              <div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-stone-100">
                 <div
                   className="h-full rounded-full transition-all"
                   style={{ width: `${ratio}%`, backgroundColor: teinte }}
