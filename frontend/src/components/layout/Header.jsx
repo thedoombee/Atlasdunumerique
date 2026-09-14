@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
-import { Bell, Command as CommandeIcone, Download, Search } from 'lucide-react'
+import { Command as CommandeIcone, Download, Search } from 'lucide-react'
 import { getIndicateursNationaux } from '../../services/api'
-import { Badge } from '../ui/badge'
 import { Button } from '../ui/button'
 import { PaletteCommande } from '../ui/palette'
 
@@ -61,16 +60,10 @@ export default function Header({ titrePage = "Vue d'ensemble", pages = [], onNav
         <Download />
         {exportEnCours ? 'Export…' : 'Export'}
       </Button>
-      <Button variante="contour" taille="icone" aria-label="Notifications">
-        <Bell />
-      </Button>
       <span className="flex size-8 items-center justify-center rounded-full bg-primary-100 text-xs font-bold text-primary-800">
         AT
       </span>
-      <Badge variante="succes" className="hidden xl:inline-flex">
-        <span className="size-1.5 rounded-full bg-emerald-500" />
-        Données à jour
-      </Badge>
+      <span className="hidden text-xs text-stone-400 xl:inline">Données RGPH-5 · 2022</span>
 
       <PaletteCommande
         ouvert={paletteOuverte}

@@ -46,14 +46,12 @@ export default function Sidebar({ pages = PAGES_DEFAUT, pageActive, onNaviguer }
   return (
     <aside className="flex w-60 shrink-0 flex-col border-r border-stone-200/70 bg-white">
       <div className="flex items-center gap-3 px-5 py-6">
-        <span className="flex size-10 items-center justify-center rounded-xl bg-primary-600 text-sm font-bold text-white">
-          TG
-        </span>
+        <img src="/logo-togo-ai-lab.svg" alt="Togo AI Lab" className="h-10 w-auto shrink-0" />
         <div>
           <h1 className="text-sm font-semibold tracking-tight text-stone-900">
-            Atlas du numérique
+            Togo AI Lab
           </h1>
-          <p className="text-xs text-stone-500">Togo · Observatoire</p>
+          <p className="text-xs text-stone-500">Atlas du numérique · Togo</p>
         </div>
       </div>
 
