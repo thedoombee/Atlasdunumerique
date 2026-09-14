@@ -1,4 +1,4 @@
-export const API_BASE = 'http://127.0.0.1:8000/api'
+export const API_BASE = import.meta.env.VITE_API_URL || '/api'
 
 export default function formaterNombre(valeur) {
   if (valeur === null || valeur === undefined || Number.isNaN(valeur)) return '\u2014'
