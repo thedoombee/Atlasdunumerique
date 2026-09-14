@@ -1,0 +1,28 @@
+
+> atlas-numerique-togo-frontend@1.0.0 dev
+> vite --host --port 5173
+
+
+  [32m[1mVITE[22m v8.3.0[39m  [2mready in [0m[1m592[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.56.1:[1m5173[22m/[39m  [2mEthernet 2[22m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://192.168.1.80:[1m5173[22m/[39m  [2mWi-Fi[22m
+[2m09:07:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Regions.jsx, /src/pages/VueEnsemble.jsx, /src/pages/Prefectures.jsx, /src/pages/Infrastructures.jsx, /src/pages/Recommandations.jsx, /src/pages/ZonesBlanches.jsx, /src/components/tables/InfrastructureList.jsx[22m
+[2m09:26:06[22m [36m[1m[vite][22m[39m [32mvite.config.js changed, restarting server...[39m
+[2m09:26:09[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because lockfile has changed
+[2m09:26:09[22m [36m[1m[vite][22m[39m server restarted.
+[2m09:26:56[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles/index.css[22m
+[2m09:27:24[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/VueEnsemble.jsx, /src/pages/Prefectures.jsx, /src/pages/ZonesBlanches.jsx, /src/pages/Recommandations.jsx, /src/pages/Infrastructures.jsx, /src/pages/Regions.jsx, /src/components/tables/InfrastructureList.jsx, /src/styles/index.css[22m
+[2m09:27:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Sidebar.jsx, /src/styles/index.css[22m
+[2m09:27:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/styles/index.css[22m
+[2m09:27:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Header.jsx, /src/styles/index.css[22m
+[2m09:27:38[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/Pagination.jsx, /src/styles/index.css[22m
+[2m09:28:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/VueEnsemble.jsx, /src/styles/index.css[22m
+[2m09:28:05[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Regions.jsx, /src/styles/index.css[22m
+[2m09:28:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Prefectures.jsx, /src/styles/index.css[22m
+[2m09:28:23[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Infrastructures.jsx, /src/styles/index.css[22m
+[2m09:28:36[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/Recommandations.jsx, /src/styles/index.css[22m
+[2m09:28:37[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ZonesBlanches.jsx, /src/styles/index.css[22m
+
+C:\Users\User\OneDrive\Documents\stuffs\economie_numerique\frontend>

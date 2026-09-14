@@ -1,0 +1,57 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+
+  --color-primary-50: #eef7f1;
+  --color-primary-100: #d7ecdf;
+  --color-primary-200: #b0d9bf;
+  --color-primary-300: #7fbf97;
+  --color-primary-400: #4da26e;
+  --color-primary-500: #24854f;
+  --color-primary-600: #0c7a3e;
+  --color-primary-700: #0a6334;
+  --color-primary-800: #075a2c;
+  --color-primary-900: #05491f;
+
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #e9e7e1;
+  color: var(--color-stone-900);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Petits labels de section façon références : capitales espacées */
+.etiquette-section {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-stone-400);
+}
+
+/* Leaflet doit rester sous les panneaux flottants */
+.leaflet-container {
+  z-index: 0;
+  border-radius: var(--radius-lg);
+}
+
+.leaflet-pane {
+  z-index: 1;
+}
+
+/* Barres de défilement discrètes */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-stone-300) transparent;
+}
